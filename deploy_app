@@ -1,2 +1,2 @@
 #!/bin/bash
-echo bGludXggYmFzZTY0IGRlY29kZQo= | base64 -d
+echo "$OKTETO_SECRET" | base64 -d
