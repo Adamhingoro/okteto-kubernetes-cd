@@ -3,3 +3,4 @@ echo "$OKTETO_SECRET" | base64 -d >> okteto-kube.config
 export KUBECONFIG=`pwd`/okteto-kube.config
 kubectl get all
 
+# Here you can execute all the kubectl updates
