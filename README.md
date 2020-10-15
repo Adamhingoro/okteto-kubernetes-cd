@@ -1,3 +1,11 @@
+# Okteto
+Is a online service for developers to test the k8s applications on a test-envoriment. 
+I really like the service it is free and you can easilly test and deploy your cloud-native applications. 
+https://okteto.com/
+
+# Travis with Okteto. 
+Travis CI/CD is good and we can use kubectl to push the new changes to the cluster.
+
 # Okteto Kubernetes CI/CD
 What we did here is simple. 
 
